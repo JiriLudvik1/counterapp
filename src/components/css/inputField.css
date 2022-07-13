@@ -1,0 +1,17 @@
+.Input-inputField{
+    background-color: #282c28;
+    color: white;
+}
+
+.Input-label{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.Input-checkbox{
+  margin-left: 15px;
+}
+
+.Input-divStyle{
+  flex-direction: row;
+}

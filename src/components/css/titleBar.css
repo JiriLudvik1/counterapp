@@ -1,0 +1,30 @@
+.TitleBar-div{
+    background-color: #282c28;
+    width: 100%;
+    min-height: 5vh;
+}
+
+.TitleBar-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .TitleBar-logo {
+    animation: TitleBar-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes TitleBar-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.TitleBar-logoStatic {
+    height: 50px;
+    pointer-events: none;
+}

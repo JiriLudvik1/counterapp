@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './css/list.css'
+import './css/inputField.css'
 import CheckBoxWithLabel from './checkBoxLabel';
 
 class InputField extends Component {

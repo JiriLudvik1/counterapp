@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import "./css/list.css"
 
 class Post extends Component {
     state = { 

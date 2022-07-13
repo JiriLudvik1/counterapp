@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Logo from './logo';
-import InputField from './inputField';
+import './css/titleBar.css'
 
 class TitleBar extends Component {
     state = { 
