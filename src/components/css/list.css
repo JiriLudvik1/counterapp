@@ -18,6 +18,15 @@
     color: white;
 }
 
+.Input-label{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.Input-checkbox{
+  margin-left: 15px;
+}
+
 .TitleBar-div{
     background-color: #282c28;
     width: 100%;
