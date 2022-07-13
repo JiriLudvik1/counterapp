@@ -27,6 +27,10 @@
   margin-left: 15px;
 }
 
+.Input-divStyle{
+  flex-direction: row;
+}
+
 .TitleBar-div{
     background-color: #282c28;
     width: 100%;
