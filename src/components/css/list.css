@@ -1,0 +1,56 @@
+.List-header{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: top;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.List-Title{
+    text-align: center;
+}
+
+.Input-inputField{
+    background-color: #282c28;
+    color: white;
+}
+
+.TitleBar-div{
+    background-color: #282c28;
+    width: 100%;
+    min-height: 5vh;
+}
+
+.TitleBar-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .TitleBar-logo {
+    animation: TitleBar-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes TitleBar-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.List-postsDiv{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.TitleBar-logoStatic {
+    height: 50px;
+    pointer-events: none;
+}
