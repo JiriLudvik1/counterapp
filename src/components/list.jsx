@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import Post from './post';
 import InputField from './inputField';
-import TitleBar from './titleBar';
 import './css/list.css'
+import TitleBarFC from './titleBarFC';
+import ButtonLoad from './apiCall';
+import GuessAge from './guessAge';
 
 class List extends Component {
     state = { 
@@ -12,7 +14,8 @@ class List extends Component {
     render() { 
         return (
             <div className='List-header'>
-                <TitleBar title="TODO List"/>
+                <TitleBarFC title="nový title"/>
+                <GuessAge/>
                 <InputField onAdd={this.handleAdd} onDelete={this.handleDelete}/>
                 <div className='List-postsDiv'>
                 {this.state.posts.map(post =>
